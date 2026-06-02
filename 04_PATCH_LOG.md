@@ -1,62 +1,70 @@
-# Patch Log — Grimório Vestibular
+# Patch Log - Grimorio Vestibular
 
-Registro de mudanças, decisões e ajustes do Grimório Vestibular.
+Registro de mudancas, decisoes e ajustes do Grimorio Vestibular.
 
-## [0.1.2] — Registro de estudo de matemática
+## 0.1.3 - Regra de ativacao do projeto
 
-### Adicionado
+Adicionado:
+- Arquivo prompts/06_REGRA_DE_ATIVACAO_DO_PROJETO.md.
+- Pergunta inicial para novos chats de estudo.
+- Lista curta de comandos principais para ativacao do fluxo MVP1.
 
-- Captura de aprendizado de matemática sobre porcentagem, proporcionalidade e interpretação.
-- Plano inicial de acompanhamento de matemática base para ENEM, Fuvest e Vunesp.
-- Índice de estudos com absorção estimada e absorção medida pendente.
-- Dúvidas ativas observadas no estudo.
+Decidido:
+- A pergunta deve ser feita uma unica vez por chat quando a estudante iniciar estudo e ainda nao tiver indicado o modo de uso.
+- Se o usuario usar qualquer comando iniciado por grimorio, o fluxo deve ser considerado ativado.
+- O assistente nao deve alterar arquivos ou commitar sem aprovacao explicita.
 
-### Decidido
+Pendente:
+- Testar a regra em um novo chat do projeto.
+- Ajustar a frase inicial se ficar repetitiva ou confusa.
 
-- O registro deve guardar o aprendido e os padrões observados, não o texto bruto do chat.
-- Absorção sem quiz/gabarito claro deve ser marcada como estimada.
-- Absorção medida fica pendente até aplicação de quiz diagnóstico.
-- Planos de estudo podem ser armazenados no repositório e atualizados conforme evolução real da estudante.
+## 0.1.2 - Registro de estudo de matematica
 
-### Pendente
+Adicionado:
+- Captura de aprendizado de matematica sobre porcentagem, proporcionalidade e interpretacao.
+- Plano inicial de acompanhamento de matematica base para ENEM, Fuvest e Vunesp.
+- Indice de estudos com absorcao estimada e absorcao medida pendente.
+- Duvidas ativas observadas no estudo.
 
-- Aplicar quiz diagnóstico de matemática.
-- Atualizar absorção medida.
+Decidido:
+- O registro deve guardar o aprendido e os padroes observados, nao o texto bruto do chat.
+- Absorcao sem quiz e gabarito claro deve ser marcada como estimada.
+- Absorcao medida fica pendente ate aplicacao de quiz diagnostico.
+- Planos de estudo podem ser armazenados no repositorio e atualizados conforme evolucao real da estudante.
+
+Pendente:
+- Aplicar quiz diagnostico de matematica.
+- Atualizar absorcao medida.
 - Ajustar plano conforme resultado do quiz.
 
-## [0.1.1] — Roteiro operacional e pendências de scripts
+## 0.1.1 - Roteiro operacional e pendencias de scripts
 
-### Adicionado
+Adicionado:
+- prompts/05_ROTEIRO_OPERACIONAL_MVP1.md com o fluxo operacional minimo do MVP1.
+- Pendencia em futuro/00_FISHBOWL.md para melhorar e revisar scripts de fala do Grimorio.
+- Pendencia para criar script recomendado de uso cobrindo inicio, perguntas, salvamento, quiz, correcao, absorcao e commit.
 
-- `prompts/05_ROTEIRO_OPERACIONAL_MVP1.md` com o fluxo operacional mínimo do MVP1.
-- Pendência em `futuro/00_FISHBOWL.md` para melhorar e revisar scripts de fala do Grimório.
-- Pendência para criar script recomendado de uso cobrindo início, perguntas, salvamento, quiz, correção, absorção e commit.
-
-### Decidido
-
-- Scripts completos de fala não entram como regra rígida agora.
+Decidido:
+- Scripts completos de fala nao entram como regra rigida agora.
 - O MVP1 deve validar primeiro o fluxo.
-- A melhoria da linguagem e dos scripts fica registrada como pendência.
+- A melhoria da linguagem e dos scripts fica registrada como pendencia.
 
-### Pendente
-
+Pendente:
 - Testar o roteiro com a Gabi.
-- Revisar se as frases de controle são suficientes.
+- Revisar se as frases de controle sao suficientes.
 - Criar script recomendado completo depois do alpha.
 
-## [0.1.0] — MVP1 inicial
+## 0.1.0 - MVP1 inicial
 
-### Adicionado
-
-- Estrutura base do Grimório Vestibular.
+Adicionado:
+- Estrutura base do Grimorio Vestibular.
 - Fluxo MVP1 em Markdown.
-- Captura Grimório.
-- Quiz diagnóstico.
-- Absorção estimada e medida de 0 a 100.
-- Pasta futuro/ para ideias fora do MVP atual.
+- Captura Grimorio.
+- Quiz diagnostico.
+- Absorcao estimada e medida de 0 a 100.
+- Pasta futuro para ideias fora do MVP atual.
 
-### Decidido
-
-- Toda evolução começa por uma hipótese.
-- O Grimório deve permanecer preso à hipótese validada.
-- Banco de dados e agente executor ficam para MVP2/MVP3.
+Decidido:
+- Toda evolucao comeca por uma hipotese.
+- O Grimorio deve permanecer preso a hipotese validada.
+- Banco de dados e agente executor ficam para MVP2 e MVP3.
