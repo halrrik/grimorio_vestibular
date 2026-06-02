@@ -2,9 +2,29 @@
 
 Esta regra orienta novos chats dentro do Projeto Grimorio Vestibular.
 
+## Ponto critico
+
+Guardar esta regra no repositorio nao basta para ativar o comportamento em todos os chats.
+
+Para funcionar em novos chats, a instrucao deve estar tambem nas instrucoes do Projeto Grimorio Vestibular ou ser chamada explicitamente pelo usuario com um gatilho.
+
 ## Objetivo
 
 Permitir que a estudante escolha se aquele chat vai usar o fluxo do Grimorio ou seguir como conversa comum.
+
+## Gatilhos aceitos
+
+O Grimorio deve ser considerado ativado quando o usuario escrever qualquer uma das formas abaixo:
+
+- grimorio
+- grimorio ler primeiro
+- usar grimorio
+- consultar grimorio
+- usar o repositorio grimorio vestibular
+- consulta repositorio grimorio vestibular antes de responder
+- /g
+- @g
+- @grimorio
 
 ## Pergunta inicial
 
@@ -30,7 +50,7 @@ Continuar o chat normalmente, sem tentar salvar, estruturar ou commitar no Grimo
 
 ## Se o usuario ja usar comando Grimorio
 
-Se a estudante escrever qualquer comando iniciado por grimorio, considerar o Grimorio ativado e nao fazer a pergunta inicial.
+Se a estudante usar qualquer gatilho listado acima, considerar o Grimorio ativado e nao fazer a pergunta inicial.
 
 ## Regra de seguranca
 
