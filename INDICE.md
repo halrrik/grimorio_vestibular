@@ -1,9 +1,9 @@
 ---
 id: grimorio_vestibular.indice
 type: operational_index
-status: v0
+status: v1
 created_at: 2026-06-15
-updated_at: 2026-06-15
+updated_at: 2026-06-17
 backend_ready: true
 human_review_required: false
 ---
@@ -25,7 +25,7 @@ produto/validacao-funcional.md
 
 ## Camada de estado vivo
 
-A camada de estado vivo registra o que o sistema sabe hoje sobre a estudante, o plano, o progresso, a metodologia, as revisões e os riscos.
+A camada de estado vivo registra o que o sistema sabe hoje sobre a estudante, o plano, o progresso, a metodologia, as revisões, os riscos e guias práticos de continuidade.
 
 ```text
 estado/progresso.md
@@ -34,6 +34,7 @@ estado/metodologia.md
 estado/perfil-aprendizagem.md
 estado/revisoes.md
 estado/riscos.md
+estado/guia-sessao-hoje.md
 ```
 
 ## Camada de aprendizados
@@ -63,8 +64,9 @@ Para operar uma sessão de estudo:
 2. estado/progresso.md
 3. estado/metodologia.md
 4. estado/revisoes.md
-5. estado/riscos.md
-6. estado/perfil-aprendizagem.md
+5. estado/guia-sessao-hoje.md
+6. estado/riscos.md
+7. estado/perfil-aprendizagem.md
 ```
 
 Para auditar evolução:
